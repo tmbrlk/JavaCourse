@@ -81,6 +81,6 @@ public class Plane implements Comparable<Object>, Cloneable {
            
             return null;
     }
-    public Plane() {};
+    public Plane() { };
    
 }

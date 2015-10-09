@@ -10,7 +10,7 @@ public class AirCompany {
 	public static void main(String[] args) {
 		List<Plane> planes = new LinkedList<>();
 		
-		initPlane(planes);
+		initPlanes(planes);
 		int capacity = generalCapacity(planes);
 		System.out.println("General people capacity: " + capacity);
 		
@@ -63,7 +63,7 @@ public class AirCompany {
 		return capacity;
 	}
 
-	private static void initPlane(List<Plane> planes) {
+	private static void initPlanes(List<Plane> planes) {
 		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
 		String model = "";
